@@ -8,7 +8,7 @@ int main(int argc, char *argv[])
 {
     pid_t pid;
 
-    printf("press enter");
+    printf("my pid is: %d, press enter",getpid());
     fgetc(stdin);
 
     pid = fork();
